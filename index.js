@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080
 
 app.get(route, function(req, res){
 
-   res.send({ express: 'EXPRESS BACKEND IS CONNECTED TO REACT' })
+   res.send({ express: 'EXPRESS BACKEND IS CONNECTED TO REACT...' })
 
 })
 
